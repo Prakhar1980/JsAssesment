@@ -36,9 +36,9 @@ function listminNFT() {                               //function list all NFTs.
     for (let i = 0; i < minNFT.length; i++) {
         console.log("NFT ID Number: \t" + (i + 1));   //Logs the ID number of the NFT.
         console.log("Name: \t" + minNFT[i].name);
-        console.log("Shirt Color: \t" + minNFT[i].company);
-        console.log("Cap Color: \t" + minNFT[i].year);
-        console.log("Theme: \t" + minNFT[i].color);
+        console.log("Company: \t" + minNFT[i].company);
+        console.log("Model year: \t" + minNFT[i].year);
+        console.log("Color: \t" + minNFT[i].color);
         console.log("---------");
         
     }
